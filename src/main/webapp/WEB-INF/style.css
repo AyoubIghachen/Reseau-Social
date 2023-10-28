@@ -1,0 +1,195 @@
+
+.profile-image {
+    width: 50px;
+}
+/* Style for publication container */
+.publication-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.publication-container {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+
+/* Style for user info section */
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Style for publication date */
+.publication-date {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* Style for publication text */
+.publication-text {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Style for publication image */
+.publication-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  margin: 10px 0;
+}
+
+/* Style for like button */
+.like-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.like-btn:hover {
+  background-color: #0069d9;
+}
+
+/* Style for comment section */
+.comment-section {
+  margin-top: 10px;
+}
+
+.comment-section input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.comment-section button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.comment-section button:hover {
+  background-color: #0069d9;
+}
+
+/* Style for comment section */
+.comment {
+  margin: 10px 0;
+}
+
+.comment p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.comment .comment-info {
+  display: flex;
+  align-items: center;
+}
+
+.comment .comment-info img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comment .comment-info p {
+  font-size: 14px;
+  margin: 0;
+}
+/* Style for publication */
+.publication {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+/* Style for like button */
+.like-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.like-button:hover {
+  background-color: #0062cc;
+}
+
+/* Style for comment input and button */
+.comment-input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.comment-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.comment-button:hover {
+  background-color: #0062cc;
+}
+
+/* Style for comment */
+.comment {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Style for comment author */
+.comment-author {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Style for comment date */
+.comment-date {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 5px;
+}
